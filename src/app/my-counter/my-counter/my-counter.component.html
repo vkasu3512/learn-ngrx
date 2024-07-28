@@ -1,0 +1,11 @@
+<h1>My Counter</h1>
+
+<button class="card card-small" (click)="increment()">Increment</button>
+
+<button class="card card-small" (click)="decrement()">Decrement</button>
+
+<button class="card card-small" (click)="reset()">Reset Counter</button>
+
+<div class="terminal">
+    <pre>Current Count: {{ count$ | async }}</pre>
+</div>
